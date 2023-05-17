@@ -12,6 +12,8 @@ namespace StrategyPattern
             bob.MakeDinner(new PotatoMeal()); //Метод MakeDinner может в качестве аргумента принять PotatoMeal и SaladMeal
             Console.WriteLine();
             bob.MakeDinner(new SaladMeal());
+
+            Console.ReadKey();
         }
     }
 }
